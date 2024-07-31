@@ -7,6 +7,18 @@
     --five: #030b08;
     --hoverBackground: var(--three);
     --borderRad: 5%;
+    --border: 5px;
+}
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--five);
 }
 
 /* Basic styles for header */
@@ -14,7 +26,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--one); /* Adjust background color as needed */
+    background-color: var(--four); /* Adjust background color as needed */
     padding: 10px 20px; /* Adjust padding as needed */
     color: var(--five); /* Text color for header */
     position: sticky;
@@ -24,14 +36,12 @@ header {
 
 header a {
     text-decoration: none;
-    color: var(--five);
+    color: var(--one);
 }
 
 /* Navigation links styling */
 .header-right ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     display: flex;
 }
 
@@ -45,7 +55,7 @@ header a {
 
 .header-right ul li a {
     text-decoration: none;
-    color: var(--buttonText); /* Link color */
+    color: var(--two); /* Link color */
     font-weight: bold; /* Optional: Adjust font weight */
     padding: 5px 10px; /* Optional: Adjust padding for each link */
     transition-property: background-color;
@@ -54,17 +64,16 @@ header a {
 
 .header-right ul li a:hover {
     /* Optional: Add hover effect */
-    background-color: var(--buttonHover); /* Adjust hover background color */
+    color: var(--four);
+    background-color: var(--one); /* Adjust hover background color */
     border-radius: var(--border); /* Optional: Rounded corners on hover */
 }
 
 .content {
-    margin:    0 auto;
+    margin: auto;
     max-width: 800px;
-}
-
-.main {
-    padding: 0px 5000px 0px 0px;
+    color: var(--two);
+    padding: 20px;
 }
 
 .dataContainer {
@@ -79,7 +88,7 @@ header a {
 }
 
 .dataContainer:hover {
-    background-color: var(--hoverBackground)
+    background-color: var(--four);
 }
 
 .dataImg {
@@ -102,11 +111,9 @@ header a {
 .dataDesc {
     text-wrap: wrap;
     margin: 2px;
+    color: var(--one);
 }
 
-.dataDesc p {
-    font-family: var(--fontDisplay);
-    color: var(--three);
-    padding: 2px;
-    margin: 2px;
-}
+/* .dataContainer:hover .dataDesc{
+    color: var(--one);
+} */
