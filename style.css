@@ -10,6 +10,7 @@
     --border: 5px;
     --hMargin: 20px 0px 20px 0px;
     --pMargin: 20px 0px 20px 20px;
+    --font: "Courier Prime", monospace;
 }
 
 /* Reset default margin and padding */
@@ -17,6 +18,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: var(--font);
+    font-weight: 400;
 }
 
 /* Basic styles for header */
@@ -75,7 +78,7 @@ body {
     font-size: 100px;
     text-align: center;
     margin: auto;
-    padding: 15%;
+    padding: 15% 0 15% 0;
 }
 
 h2 {
