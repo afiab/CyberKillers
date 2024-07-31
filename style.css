@@ -8,6 +8,8 @@
     --hoverBackground: var(--three);
     --borderRad: 5%;
     --border: 5px;
+    --hMargin: 20px 0px 20px 0px;
+    --pMargin: 20px 0px 20px 20px;
 }
 
 /* Reset default margin and padding */
@@ -15,10 +17,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
-    background-color: var(--five);
 }
 
 /* Basic styles for header */
@@ -67,6 +65,29 @@ header a {
     color: var(--four);
     background-color: var(--one); /* Adjust hover background color */
     border-radius: var(--border); /* Optional: Rounded corners on hover */
+}
+
+body {
+    background-color: var(--five);
+}
+
+#title {
+    font-size: 100px;
+    text-align: center;
+    margin: auto;
+    padding: 15%;
+}
+
+h2 {
+    margin: var(--hMargin) ;
+}
+
+h3 {
+    margin: var(--hMargin) ;
+}
+
+p {
+    margin: var(--pMargin) ;
 }
 
 .content {
