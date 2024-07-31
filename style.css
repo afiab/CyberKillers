@@ -1,0 +1,63 @@
+:root {
+    /* colors */
+    --one: #d3f6e6;
+    --two: #f9fffd;
+    --three: #d0dcd6;
+    --four: #688d6f;
+    --five: #1a231a;
+    --hoverBackground: gray;
+    --borderRad: 5%;
+}
+
+.content {
+    margin:    0 auto;
+    max-width: 800px;
+}
+
+.main {
+    padding: 0px 5000px 0px 0px;
+}
+
+.dataContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: var(--borderRad);
+    background-color: transparent;
+    margin: 20px;
+    padding: 10px;
+    align-items: center;
+}
+
+.dataContainer:hover {
+    background-color: var(--hoverBackground)
+}
+
+.dataImg {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.dataImage{
+    margin: 5px;
+    height: 200px;
+    width: auto;
+    max-width: 50vw; /* because some pics are rly wide lol */
+    aspect-ratio: auto;
+    /* padding: 5%; */
+    border: 5px solid var(--one);
+}
+
+.dataDesc {
+    text-wrap: wrap;
+    margin: 2px;
+}
+
+.dataDesc p {
+    font-family: var(--fontDisplay);
+    color: var(--three);
+    padding: 2px;
+    margin: 2px;
+}
