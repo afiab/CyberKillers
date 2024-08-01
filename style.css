@@ -177,10 +177,6 @@ h3 {
     padding: 1%;
 }
 
-.Center {
-    align-content: center;
-}
-
 .footer {
     background-color: var(--four);
     color: var(--one);
