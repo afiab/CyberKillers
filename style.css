@@ -296,7 +296,8 @@ h3 {
         text-wrap: wrap;
     }
 
-    #aboutcontent {
+    .aboutcontent {
+        padding: 0px 25px 10px 25px;
         text-align: center;
     }
 
