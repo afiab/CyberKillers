@@ -151,6 +151,7 @@ p {
 }
 
 .item img {
+    border-radius: var(--borderRad);
     height: 150px;
     width: auto;
     padding: 1%
