@@ -11,6 +11,7 @@
     --hMargin: 20px 0px 20px 0px;
     --pMargin: 20px 0px 20px 20px;
     --font: "Courier Prime", monospace;
+    --sliderPadding: 10px;
 }
 
 /* Reset default margin and padding */
@@ -75,7 +76,7 @@ body {
 }
 
 #title {
-    font-size: 100px;
+    font-size: 10vw;
     text-align: center;
     margin: auto;
     padding: 15% 0 15% 0;
@@ -141,3 +142,20 @@ p {
 /* .dataContainer:hover .dataDesc{
     color: var(--one);
 } */
+
+.list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item img {
+    height: 150px;
+    width: auto;
+    padding: 1%
+}
+
+.Center {
+    align-content: center;
+}
