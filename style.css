@@ -153,6 +153,10 @@ p {
     color: var(--one);
 } */
 
+#logoContainer img {
+    border: none;
+}
+
 .list{
     display: flex;
     flex-direction: row;
