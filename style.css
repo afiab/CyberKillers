@@ -100,10 +100,6 @@ h3 {
     margin: var(--hMargin) ;
 }
 
-p {
-    margin: var(--pMargin) ;
-}
-
 .content {
     margin: auto;
     max-width: 800px;
@@ -173,6 +169,12 @@ p {
 
 .Center {
     align-content: center;
+}
+
+.footer {
+    background-color: var(--four);
+    color: var(--one);
+    padding: 5px 5px 5px 15px;
 }
 
 /* mobile responsiveness here: */
