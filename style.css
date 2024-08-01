@@ -153,6 +153,10 @@ h3 {
     border: none;
 }
 
+#stat3 {
+    padding-bottom: 30px;
+}
+
 .list{
     display: flex;
     flex-direction: row;
@@ -220,6 +224,10 @@ h3 {
 
     .dataDesc {
         margin: 5%;
+    }
+
+    #stat1 {
+        text-align: center;
     }
 
     .list {
