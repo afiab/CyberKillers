@@ -86,7 +86,7 @@ body {
 }
 
 #title {
-    font-size: 600%;
+    font-size: 100px;
     text-align: center;
     margin: auto;
     padding: 15% 0 15% 0;
@@ -173,4 +173,17 @@ p {
 
 .Center {
     align-content: center;
+}
+
+/* mobile responsiveness here: */
+@media screen and (max-width: 769px) {
+    header {
+        flex-direction: column;
+    }
+    
+    #title {
+        font-size: 10vw;
+        text-align: center;
+        margin: 0;
+    }
 }
