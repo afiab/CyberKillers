@@ -178,7 +178,7 @@ h3 {
 .item img {
     border-radius: var(--borderRad);
     height: 150px;
-    width: auto;
+    width: 200px;
     padding: 1.5%;
     display: block;
 }
@@ -275,14 +275,17 @@ h3 {
     }
 
     .item {
-        position: static; /* Remove relative positioning */
+        position: relative; /* Remove relative positioning */
+        text-wrap: wrap;
+        max-width: min-content;
     }
 
     .overlay {
-        position: static; /* Remove absolute positioning */
+        position: relative; /* Remove absolute positioning */
         opacity: 1; /* Always visible */
         background-color: rgba(0, 0, 0, 0); 
         padding: 5px;
         margin-top: 5px; /* Space between image and text */
+        text-wrap: wrap;
     }
 }
