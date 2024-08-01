@@ -181,6 +181,7 @@ h3 {
     width: 200px;
     padding: 1.5%;
     display: block;
+    object-fit: cover;
 }
 
 .overlay {
