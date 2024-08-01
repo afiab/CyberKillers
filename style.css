@@ -287,6 +287,10 @@ h3 {
         max-width: min-content;
     }
 
+    .item a {
+        text-decoration: none;
+    }
+
     .overlay {
         position: relative; /* Remove absolute positioning */
         opacity: 1; /* Always visible */
