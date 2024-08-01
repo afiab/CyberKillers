@@ -41,6 +41,16 @@ header a {
     color: var(--one);
 }
 
+.header-left {
+    list-style-type: none;
+    display: flex;
+}
+
+.header-left img {
+    max-height: 35px;
+    margin: 0px 10px 0px 0px;
+}
+
 /* Navigation links styling */
 .header-right ul {
     list-style-type: none;
