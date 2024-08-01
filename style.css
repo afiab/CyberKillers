@@ -292,4 +292,9 @@ h3 {
         margin-top: 5px; /* Space between image and text */
         text-wrap: wrap;
     }
+
+    #aboutcontent {
+        text-align: center;
+    }
+
 }
