@@ -138,6 +138,11 @@ h3 {
     aspect-ratio: auto;
     /* padding: 5%; */
     border: 5px solid var(--one);
+    transition: transform .2s;
+}
+
+.dataImage:hover {
+    transform: scale(1.5);
 }
 
 .dataDesc {
