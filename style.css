@@ -164,7 +164,7 @@ h3 {
     border-radius: var(--borderRad);
     height: 150px;
     width: auto;
-    padding: 1%
+    padding: 1%;
 }
 
 .Center {
@@ -212,5 +212,19 @@ h3 {
 
     .dataDesc {
         margin: 5%;
+    }
+
+    .list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .item img {
+        border-radius: var(--borderRad);
+        height: auto;
+        width: 35vw;
+        padding: 1%;
     }
 }
