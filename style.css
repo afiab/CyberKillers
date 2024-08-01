@@ -189,6 +189,14 @@ h3 {
         margin: 0;
     }
 
+    h2 {
+        text-align: center;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
     .dataContainer {
         display: flex;
         flex-direction: column;
